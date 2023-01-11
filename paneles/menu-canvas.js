@@ -13,7 +13,7 @@ class Menucanvas{
     }
 
     run(){
-        this.update();
+        // this.update();
         this.draw();
     }
     update(){
@@ -21,7 +21,7 @@ class Menucanvas{
     }
     draw(){
        
-        // this.newlec.draw(this.ctx);
+        // this.newlec.draw(thisz.ctx);
         this.menubg.draw(this.ctx);
         
 
