@@ -2,7 +2,7 @@ class Introbackground{
 
     constructor(){
 
-        this.img = document.querySelector("#intro-canvas");
+        this.img = document.querySelector("#intro");
         this.x = 0;
         this.y = 0;
         
