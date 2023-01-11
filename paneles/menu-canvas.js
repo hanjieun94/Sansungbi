@@ -5,9 +5,8 @@ class Menucanvas{
         /** @typeof {CanvasRenderingContext2D} */
         this.ctx = this.dom.getContext("2d");
 
-        this.newlec = new Newlec();
+        // this.newlec = new Newlec();
         this.menubg = new Menubackground();
-
 
         this.newlecAppearDelay = 5;
 
@@ -21,9 +20,9 @@ class Menucanvas{
         console.log("d");
     }
     draw(){
+       
+        // this.newlec.draw(this.ctx);
         this.menubg.draw(this.ctx);
-
-        this.newlec.draw(this.ctx);
         
 
     }

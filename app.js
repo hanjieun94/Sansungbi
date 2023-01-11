@@ -5,7 +5,7 @@ window.addEventListener("load", function(){
     // introCanvas.run();
 
     const menuCanvas = new Menucanvas();
-    menuCanvas.run()
+    menuCanvas.run();
 
     
 });
