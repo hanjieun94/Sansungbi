@@ -1,4 +1,4 @@
-export default class MenuBackground{
+class MenuBackground{
 
     constructor(){
         

@@ -1,4 +1,4 @@
-export default class Newlec{
+class Newlec{
 
     constructor(){
         
