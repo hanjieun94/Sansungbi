@@ -1,0 +1,6 @@
+class MenuBackground{
+
+    constructor(){
+        
+    }
+}
