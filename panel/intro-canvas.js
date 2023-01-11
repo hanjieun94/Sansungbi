@@ -1,4 +1,4 @@
-import Introcbackground from "../item/intro-background";
+import Introbackground from "../item/intro-background";
 import Ship from "../item/ship";
 
 export default class Introcavas{
@@ -10,6 +10,9 @@ export default class Introcavas{
         this.ctx = this.dom.getContext("2d");
         this.ship = new Ship();
         this.intbg = new Introbackground();
+    }
+    run(){
+        console.log("hi");
     }
     draw(){
         this.intbg.draw(this.ctx);

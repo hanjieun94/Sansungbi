@@ -1,4 +1,4 @@
-export default class Introcbackground{
+export default class Introbackground{
 
     constructor(){
 
