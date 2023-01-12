@@ -20,20 +20,15 @@ class Introcavas{
 
     }
     update(){
-
         this.shipShakeDelay--;
         if(this.shipShakeDelay == 0){
-
             this.ship.update();
-
             this.shipShakeDelay=Math.floor(Math.random()*2)+2;
         }
 
         this.sunAppearDelay--;
         if(this.sunAppearDelay == 0){
-
             this.sun.update();
-
             this.sunAppearDelay = 5;
         }
 
@@ -41,8 +36,8 @@ class Introcavas{
     draw(){
         this.intbg.draw(this.ctx);
         this.ship.draw(this.ctx);
-        this.sun.draw(this.ctx)
-;    }
+        this.sun.draw(this.ctx);
+    }
 
 
 }

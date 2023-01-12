@@ -4,16 +4,9 @@ class Ship{
         this.img = document.querySelector("#ship");
         this.x = 0;
         this.y = 250;
-        this.speed = 10;
+        this.speed = 8;
         
     }
-
-    // set y(value){
-    //     this.y = value;
-    // }
-    // get y(){
-    //     return this.y;
-    // }
 
     draw(ctx){
         ctx.drawImage(this.img, 
@@ -22,8 +15,13 @@ class Ship{
 
     }
     update(){ 
-        this.x += this.speed;
-        
-        this.y=this.y==250?255:250;
+
+        if(this.x>=680){
+            window.location.href="../loading/mainMenu/main.html";
+        } else{
+            this.x += this.speed;
+            this.y=this.y==250?255:250;
+        }
+            
     }
 }
