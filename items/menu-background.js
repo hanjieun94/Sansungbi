@@ -1,13 +1,13 @@
-class Menubackground{
-    constructor(){
+// class Menubackground{
+//     constructor(){
 
-        this.img = document.querySelector("#menu");
-        this.x = 0;
-        this.y = 0;
+//         this.img = document.querySelector("#menu");
+//         this.x = 0;
+//         this.y = 0;
 
-    }
-    draw(ctx){
-        ctx.drawImage(this.img,this.x,this.y);
-    }
+//     }
+//     draw(ctx){
+//         ctx.drawImage(this.img,this.x,this.y);
+//     }
     
-}
+// }

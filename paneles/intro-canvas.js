@@ -12,8 +12,6 @@ class Introcavas{
         this.shipShakeDelay = 1;
         this.sunAppearDelay = 5;
 
-
-
     }
     run(){
         this.update();
